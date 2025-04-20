@@ -20,6 +20,10 @@ const App = () => {
     checkAuth();
   },[checkAuth])
 
+  useEffect(() => {
+    document.documentElement.setAttribute("data-theme", theme);
+  }, [theme]);
+
   console.log({authUser});
 
   if (isCheckingAuth && !authUser)  return (
