@@ -18,7 +18,7 @@ const Navbar = () => {
               <MessageCircleDashed className="w-5 h-5 text-primary" />
             </div>
             <h1 className="text-xl font-semibold tracking-tight text-primary">
-              PulseChat
+              ChatApplication
             </h1>
           </Link>
 
