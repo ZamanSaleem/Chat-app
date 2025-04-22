@@ -1,4 +1,4 @@
-import { MessageCircleHeart } from "lucide-react";
+import { MessageCircleDashed } from "lucide-react";
 
 const NoChatSelected = () => {
   return (
@@ -7,7 +7,7 @@ const NoChatSelected = () => {
         {/* Animated Icon */}
         <div className="flex justify-center mb-4">
           <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center shadow-lg animate-pulse">
-            <MessageCircleHeart className="w-10 h-10 text-primary" />
+            <MessageCircleDashed className="w-10 h-10 text-primary" />
           </div>
         </div>
 
